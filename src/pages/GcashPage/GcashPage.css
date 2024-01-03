@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.upper-div {
+    background: #1d4efe;
+    height: 25rem;
+}
+
+.inner-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 5rem;
+}
+
+.back-button {
+    color: white !important;
+    align-self: flex-start;
+}
+
+.logo-design {
+    width: 27.063rem;
+}
+
+.card-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1%;
+    opacity: 0.90;
+    width: 36.438rem;
+    height: 33rem;
+    background-color: rgba(217, 217, 217, 0.9);
+}
+
+.div-upper {
+    height: 11rem;
+    display: flex;
+    flex-flow: nowrap row;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.div-lower {
+    height: 20rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.upper-left {
+    height: inherit;
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.upper-right {
+    width: 23rem;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.service-selected {
+    color: #535353 !important;
+}
+
+.amount-due {
+    color: #1d4efe !important;
+}
+
+.auth-button-class {
+    width: 22.5rem;
+    padding: 12px 50px;
+    border-radius: 5px;
+    background-color: #1d4efe;
+    color: #ffffff;
+    border: #1d4efe;
+    border-style: solid;
+}
+
+.span-modified {
+    color: #808080;
+    font-family: Inter;
+    font-size: 24px;
+    padding-bottom: 1rem;
+}
+
+.p-modified {
+    font-size: 20px;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1366px) {
+    .card-div {
+        top: 60%
+    }
+}

@@ -1,0 +1,295 @@
+/* Font : Inter */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* MPlus */
+ @import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=M+PLUS+Rounded+1c:wght@700&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.form-header{
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.flex-prop{
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow-svg-cont{
+    margin-left: 4rem;
+    padding-top: 4rem;
+    
+}
+
+.sgnup-txt{
+    display: block;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    margin-left: 13rem;
+}
+
+
+
+.body-wrap{
+    display: flex;
+    background: url('../../../assets/backgrounds/sign.jpg') no-repeat fixed center;
+
+
+}
+
+.bg-cover{
+    background: url('../../../assets/backgrounds/sign.jpg') no-repeat fixed center;
+    position: absolute;
+    background-size: cover;
+
+}
+
+.sign-up-form-wrp{
+    background-color: rgba(255, 255, 255, 0.90);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    margin-top: 6.7rem;
+    margin-bottom: 6.7rem;
+}
+
+.form-header{
+    display: flex;
+    margin-top: 4.6rem;
+}
+
+
+/* General Padding and Margin Classes */
+
+
+.h-mg-t{
+    margin-top: 1rem;
+}
+
+.gen-mg-l{
+    margin-left: 2.5rem;
+}
+
+.gen-mg-r{
+    margin-right: 2.5rem;
+}
+
+.flx-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt-al-l{ /* Text Align, Float Left*/
+    display: block;
+    float: left;
+}
+
+.f-style{
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.40)
+}
+
+
+/* General Font Styles */
+
+.fin-prop{ /* Form Input Name Property */
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sub-fin-prop{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+.choices-prop{ /* Form Input Name Property */
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* Owner Information */
+.add-txt{
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.add-prop-inp{
+    width: 35rem;
+    height: 2.5rem;
+}
+
+.cpz{
+    width: 13.8rem;
+    height: 2.5rem;
+}
+
+.emdob{
+    width: 21.2rem;
+    height: 2.5rem;
+}
+
+/* Pet Information */
+
+.pet-fill-txt{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.others-specified{
+    width: 9.6rem;
+    height: 1.6rem;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.vaccine-question-cont{
+    margin-left: 13.8rem;
+}
+
+
+
+.w-2125{ /* General Width of Form Box*/
+    width: 21.25rem;
+    height: 2.5rem;
+}
+
+/* Margin for Forms and Inputs*/
+
+.f-mrg-t-0-5{
+    margin-top: 0.5rem;
+}
+
+.f-mrg-l{
+    margin-left: 1rem;
+}
+
+.f-mrg-t{
+    margin-top: 3rem;
+}
+
+.spc-l{
+    margin-left: 0.5rem;
+}
+
+/* Button Properties */
+
+.add-pet-btn{
+    border-radius: 8px;
+    background-color: #000;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.add-btn-wrp{
+    margin-top: 2.7rem;
+}
+
+.sub-btn-wrp{
+    margin-top: 3.125rem;
+    margin-bottom: 4.375rem;
+    text-align: center;
+}
+
+.submit-btn{
+    border-radius: 8px;
+    background-color: #000;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+
+    width: 21.125rem;
+}
+
+
+/* Dropdown Migrated */
+.sx-slctor{
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--grey-grey-90, #E6E6E6);
+    background: var(--neutral-white, #FFF);
+
+}
+
+.wrp{
+
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.pet-form-flex{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2rem;
+}
+
+/* Add Pets */
+
+.add-pet-form-wrp{
+    background-color: rgba(255, 255, 255, 0.90);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 8rem;
+    margin-top: 1.7rem;
+    margin-bottom: 6.7rem;
+    border-radius: 30px;
+}
+
+.addp-txt{
+    display: block;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    margin-right: 10rem;
+
+}
+
+.txt-de-n{
+    text-decoration: none;
+}
+
+.flx-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.spc-bet{
+    margin-left: 1rem;
+}
+
+.pdl-2{
+    padding-left: 0.5rem;
+}

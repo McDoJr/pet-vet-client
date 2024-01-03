@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.grmng-post{
+    margin-top: 3.38rem;
+}
+
+.img-container{
+    display: flex;
+    text-align: center;
+}
+.dog-grooming-img{
+    margin-top: 5rem;
+    height: 80%;
+}
+
+.p-one-txt{
+    display: block;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Inter;
+    font-weight: 550;
+}
+
+.p-one-l-header{
+    display: block;
+    margin-top: 25px;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    color: #F00;
+}
+
+.ml{
+    margin-left: 3.25rem;
+}
+
+.s-divider{
+    background-color: #D9D9D9;
+    margin-top: 3.125rem;
+}

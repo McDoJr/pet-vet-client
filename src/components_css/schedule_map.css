@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.schedule-head{
+    background-color: #4688A0;
+    height: 100%;
+    text-align: center;
+    margin-top: 1.56rem;
+}
+
+.header-text{
+    display: inline-block;
+    margin-top: 2.125rem;
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.s-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 3rem;
+}
+
+/* Schedule Properties */
+
+.schedule-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: max-content;
+    width: 90%;
+    margin-top: 1.9rem;
+    
+}
+
+.day-txt{
+    display: block;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.time-txt{
+    display: block; 
+    white-space: nowrap;
+    text-align: center;
+
+}
+
+.time-txt-cont{
+    text-align: center;
+}
+
+.bor-s{
+    border-left: 3px solid black;
+}
+
+/* Map Properties CSS */
+
+.map-contain{
+    margin-top: 3.125rem;
+    margin-bottom: 4rem;
+}
+
+.map-fr{
+    position: relative;
+}
+
+.mp-inform-contain{
+    width: 0px;
+    height: 0px;
+}
+
+.address{
+    position: absolute;
+}
+
+.a-txt-wrp{
+    opacity: 0.8;
+    transform: translate(0.5rem, 0.5rem); 
+    color: white;
+    background-color: black;
+
+    width: 25rem;
+    height: 16rem;
+
+    padding-left: 4.4rem;
+    padding-right: 4.4rem;
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.address-txt{
+    font-family: Inter;
+
+    display: block;
+    width: 15rem;
+
+}
+
+.add-h{
+    font-weight: 600;
+}
+
+.add-b{
+    font-weight: 500;
+}
+
+.mp-sk-fr{
+   width: 100%;
+   height: 27.5rem;
+   z-index: -1;
+}
+
+.map-sk{
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.my-custom-top{
+    margin-top: 2rem;
+}
+
+.my-custom-gen{
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    padding-top: 2.5rem;
+}
+
+.padding-custom{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+
+/* Footer CSS Properties */
+
+.page-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4688A0;;
+}
+
+.about-us-container{
+    margin-top: 2.32rem;
+}
+
+.abu-txt{
+    font-family: Inter;
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.links-one-container{
+    display: inline-block;
+    margin-top: 1.25rem;
+}
+
+.links-two-container{
+    margin-top: 0.5rem;
+    margin-bottom: 2.32rem;
+}
+
+.link-1, .link-2, .link-3{
+    font-family: Inter;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.link-2-1, .link-2-2, .link-2-3{
+    text-decoration: none;
+    font-family: Inter;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/*
+
+ <div className="map-info">
+                        <div className="mp-inform-contain">
+                            <p className="address"> { map_info.map_information.location_name } </p>
+                        </div>
+                    </div>
+
+((((index+1) - 1) < 0)  ? '' : 'bor-s')}
+
+
++ ((index - 1) < 0 ? '' : 'bor-s')
+
+function stateUpdate(){
+    const [ counter, setCounter ] = useState(0)
+
+    return(
+        
+    );
+}
+
+((index - 1) < 0 ? '' : 'bor-s')
+*/
+
+

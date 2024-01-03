@@ -1,0 +1,128 @@
+.header-background{
+    background: rgba(70, 136, 160, 0.49);
+    height: 17rem;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 6.5rem;
+}
+
+.header-image {
+    align-self: center;
+    margin-left: 2rem;
+    height: 5rem;
+}
+
+.cover-div {
+    height: 19rem;
+    background: #a4c5d0;
+    width: 100%;
+    /* background: red; */
+
+}
+
+.profile {
+    transform: translateY(-30%);
+    padding-bottom: 2rem;
+    z-index: 0;
+}
+
+.content-center {
+    /* width: 100%; */
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20rem;
+}
+
+.client-information {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 20rem;
+    align-content: flex-start;
+    /* margin-left: rem; */
+}
+
+.client-header {
+    align-self: flex-start;
+}
+
+.client-content {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+
+.inner-content-div {
+    text-align: start;
+}
+
+.client-name {
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.owner-detail {
+    text-align: left;
+    align-self: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.client-attributes {
+    font-weight: bold;
+}
+
+.div-positioning {
+    position: relative;
+    z-index: 2;
+}
+
+.img-info-container{
+    width: auto;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.name-user-info{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-box{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    height: 5rem;
+}
+
+.cover-div{
+    width: 100%;
+}
+
+/* .media-test-css {
+
+} */
+
+
+@media only screen and (max-width: 1366px) {
+    .cover-div {
+        height: 15rem;
+        /* background: red; */
+    }
+}

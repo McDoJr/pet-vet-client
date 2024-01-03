@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+
+.pg-name-head{
+    background-color: #4688A0;
+    height: 100%;
+    margin-top: 4px;
+}
+
+.pg-name-txt{
+    color: #000;
+    display: inline-block;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 2.1rem;
+    margin-bottom: 2.1rem;
+}
+
+.right{
+    text-align: right;
+    padding-right: 15rem;
+}
+
+.left{
+    text-align: left;
+    padding-left: 19rem;
+}
+
+.svg-r{
+    display: flex;
+    text-align: right;
+    align-content: right;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
+.svg-l{
+    display: flex;
+    text-align: left;
+    align-content: left;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.hd-img-l{
+    transform: scaleX(-1) scaleX(1) translateY(-70%);
+    z-index: -1;
+}
+
+.hd-img-r{
+    transform: translateY(-70%);
+    z-index: -1;
+}
+

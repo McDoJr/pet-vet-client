@@ -1,0 +1,21 @@
+.logo-bar{
+    background-color: rgb(255, 255, 255);
+}
+
+.logo-container{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.c-logo-cntner{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.c-logo-banner{
+    height: 100px;
+    width: 200px;
+    padding-left: 10px;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+
+
+/* General Properties */
+
+.chck-post-cont{
+    margin-top: 3.4rem;
+    margin-bottom: 3rem;
+}
+
+.dvider-svg{
+    width: 100%;
+}
+
+/* General Text & Margin Properties */
+
+/* General Text Properties */
+
+
+.p-txt{
+
+    display: block;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.p-header{
+    display: block;
+    margin-top: 25px;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    color: #F00;
+}
+
+/* Post & Header General Margin */
+
+.mp-2rm{
+    margin-top: 2rem;
+}
+
+.mp-3rm{
+    margin-top: 3rem;
+}
+
+
+/* Image Properties */
+
+.cu-img{
+    padding-left: 1rem;
+}
+
+/* Header Properties*/
+
+
+/* Post Properties */

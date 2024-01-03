@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.post-list{
+    margin-top: 2rem;
+
+    display: block;
+    margin-top: 25px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.ml{
+    margin-left: 3.25rem;
+}
+
+/* Specify General Properties */
+
+.jsonprop-one{
+    font-size: 18px;
+    text-align: justify;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.jsonprop-two{
+    font-size: 18px;
+    text-align: justify;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+
+/* Vaccine Post */
+
+.v-span-wrpper{
+    display: flex;
+    flex-direction: row;
+}
+
+.v-json-prop-1{
+    font-size: 18px;
+    text-align: justify;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.v-json-prop-2{
+    font-size: 18px;
+    text-align: justify;
+    font-family: Inter;
+    font-weight: 400;
+}

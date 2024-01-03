@@ -1,0 +1,138 @@
+/* Font : Inter */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* MPlus */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=M+PLUS+Rounded+1c:wght@700&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* Roboto Font API */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+
+body{
+    width: 100%;
+}
+/* General Properties */
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-deco-n{
+    text-decoration: none;
+}
+
+/* Specific Properties */
+
+
+
+.landing-bnner-txt{
+
+    background: url('../../../assets/backgrounds/landing_banner.png') lightgray 50% / cover no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(211, 211, 211, 0.5);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 9.376rem;
+    padding-bottom: 10rem;
+}
+
+.landing-co-txt{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    color: black;
+}
+
+.landing-b-txt{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wc-txt{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.wc-txt-ac{
+    display: block;
+    color: #030303;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+
+    margin-top: 1.5rem;
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #000;
+}
+
+.wc-grt-txt-ac{
+    margin-top: 1rem;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.landing-photo{
+    width: 100%;
+}
+
+.landing-dg-con{
+    display: inline;
+    justify-items: center;
+    vertical-align:bottom;
+    /*margin-left: 5rem;*/
+}
+
+.wc-txt-con{
+    color: #000;
+}
+
+.apptm-bnner-con{
+    background-color: #4688A0;
+    margin-top: 2rem;
+}
+
+.apptm-b-txt{
+    color: #000;
+    text-align: center;
+    font-family: Rounded Mplus 1c;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+
+    margin-top: 3.25rem;
+}
+
+.book-apptm-btn{
+    border-radius: 8px;
+    background: #000;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    width: fit-content;
+
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+
+    margin-top: 2.7rem;
+    margin-bottom: 4.6rem;
+
+}

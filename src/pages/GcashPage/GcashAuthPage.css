@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.inner-div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7rem auto;
+}
+
+.logo-design {
+    width: 27.063rem;
+    margin-bottom: 5rem;
+}
+
+.span-text {
+    font-family: Inter;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.auth0-code {
+    display: flex;
+    flex-flow: nowrap row;
+    width: 3.188;
+    height: 4;
+}
+
+.text-size {
+    text-align: center;
+    font-family: Inter;
+    width: 2rem;
+    height: 3rem;
+    margin-right: 0.25rem;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #1565d8;
+}
+
+.small-div {
+    margin-bottom: 5rem;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.highlighted-text {
+    color: #1565d8; 
+}
+
+.submit-button-class {
+    width: 22.5rem;
+    padding: 12px 50px;
+    border-radius: 5px;
+    background-color: #1d4efe;
+    color: #ffffff;
+    border: #1d4efe;
+    border-style: solid;
+}

@@ -1,0 +1,14 @@
+
+
+
+export const ProfileNavBar = () =>{
+
+    return(
+        <>
+
+        
+        
+        
+        </>
+    );
+}

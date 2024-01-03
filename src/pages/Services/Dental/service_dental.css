@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+
+.dnt-post{
+    margin-top: 3.4rem;
+}
+
+.dden-cont{
+}
+.dog-dental{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    height: 60%;
+}
+
+
+.d-txt{
+    display: block;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Inter;
+    font-weight: 550;
+}
+
+#list-header{
+    display: inline-block;
+    margin-top: 1.6rem;
+    
+    color: #F00;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.dvder-svg{
+    width: 100%;
+}
+

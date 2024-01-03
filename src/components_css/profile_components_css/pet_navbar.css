@@ -1,0 +1,50 @@
+.bg-body-custom{
+    background-color: #D9D9D9;
+    height: 4rem;
+}
+
+
+.navigation-grp{
+    display: flex;
+    /* align-items: center; */
+    margin-left: 1rem;
+    /* margin-top: 1em; */
+}
+
+.pr{
+    margin-right: 3.125rem;
+}
+
+.btn-gen{
+    background: none;
+    border: none;
+
+    :focus{    
+        .dp-arrow-svg{
+            transform: rotate(1turn);
+        }
+    }
+}
+
+.btn-txt-gen{
+    display: block;
+
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: black;
+    line-height: 20px;
+}
+
+.dp-arrow{
+    padding-left: 0.9rem;
+}
+
+.dp-arrow-svg{
+    transform: rotate(0.5turn);
+}
+
+.drp-down-p{
+    padding-top: 4px;
+}
+

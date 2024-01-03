@@ -1,0 +1,33 @@
+/* Roboto Font API */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.drop-menu.prop{
+    height: min-content;
+}
+
+.dropdown-item{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+        
+}
+
+.dm-menu{
+    border-radius: 5px;
+    > a{
+        &:hover{ 
+            background-color: #C0DBED;
+            border-radius: 0.3rem;
+        }
+
+        &:focus{
+            background-color: #C0DBED;
+            border-radius: 0.3rem;
+        }
+    }
+}
+
+.dropdown-menu.show{
+    padding: 0;
+}

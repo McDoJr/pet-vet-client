@@ -1,0 +1,29 @@
+.test-center-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-content-div {
+    /* border: 1px solid; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+.text-payment {
+    margin: 5rem 0rem;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.return-button-class {
+    align-self: center;
+    padding: 12px 50px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+}

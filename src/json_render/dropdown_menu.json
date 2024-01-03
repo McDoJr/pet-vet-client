@@ -1,0 +1,39 @@
+{
+ "dropdown_services":[  
+                {
+                    "menu_name": "Grooming",
+                    "path" : "/Grooming"
+                },
+                {
+                    "menu_name": "Dental",
+                    "path" : "/Dental"
+                },
+                {
+                    "menu_name": "Vaccines",
+                    "path" : "/Vaccines"
+                },
+                {
+                    "menu_name": "Check Up",
+                    "path" : "/CheckUp"
+                },
+                {
+                    "menu_name": "Surgery",
+                    "path" : "/Surgery"
+                },
+                {
+                    "menu_name": "Spaying or Neutering",
+                    "path" : "/SpayingorNeutering"
+                }
+            ],
+    "dropdown_payment": [
+                {
+                    "menu_name": "Cash",
+                    "path" : "/OnhandLoadingScreen"
+                },
+                {
+                    "menu_name": "GCash",
+                    "path" : "/GcashPage"
+                }
+    ]
+
+}

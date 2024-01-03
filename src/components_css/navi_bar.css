@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+.bg-body-custom{
+    background-color: #808080;
+    height: 4rem;
+}
+
+
+.navigation-grp{
+    display: flex;
+    /* align-items: center; */
+    margin-left: 1rem;
+    /* margin-top: 1em; */
+}
+
+.pr{
+    margin-right: 3.125rem;
+}
+
+.btn-gen{
+    background: none;
+    border: none;
+
+    :focus{    
+        .dp-arrow-svg{
+            transform: rotate(1turn);
+        }
+    }
+}
+
+.btn-txt-gen{
+    display: block;
+
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+    color: black;
+    line-height: 20px;
+}
+
+.dp-arrow{
+    padding-left: 0.9rem;
+}
+
+.dp-arrow-svg{
+    transform: rotate(0.5turn);
+}
+
+.drp-down-p{
+    padding-top: 4px;
+}
+
+
+/* Sign Up Log In */
+
+.navi-ls-grp{
+    margin-top: 0.5rem;
+    display: flex;
+    float: left;
+}
+
+.lg-in-btn{
+    background: none;
+}
+
+.lg-in-txt{
+    padding-top: 5px;
+}
+
+.btn-prop{
+    border-radius: 8px;
+    width: 137px;
+    height: 35px;
+    background-color: #000;
+}
+
+.sgn-up-txt{
+    color: white;
+}
+
+.c-sgn-up{
+    color: white;
+}
+
+.ml{
+    margin-left: 2.25rem;
+}
+
+.mr{
+    margin-right: 4.5rem ;
+}
+
+.txt-decor-n{
+    text-decoration: none;
+}
+
+
+/* PROFILE ICON AND NAME */
+
+.profile-logged{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    margin-right: 5rem;
+    float: left;
+    align-items: center;
+}
+
+.nav-profile-photo{
+    margin-left: 1.19rem;
+    background-color: none;
+}
+
+.usr-name-sp{
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+}

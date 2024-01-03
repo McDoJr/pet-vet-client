@@ -1,0 +1,110 @@
+/* Font : Inter */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* MPlus */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=M+PLUS+Rounded+1c:wght@700&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* Roboto Font API */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+
+
+.bg-wrp{
+    display: flex;
+    background: url('../../../assets/backgrounds/dog_hs.jpg') lightgray 50% / cover no-repeat;    
+    height: fit-content;
+
+}
+
+.ty-lg-bnner{
+    font-size: 100px;
+    display: flex;
+
+}
+
+.cont-wrp{
+    padding-left: 4.3rem;
+    padding-right: 4.3rem;
+}
+
+.log-wc-pt{
+
+    display: flex;
+    flex-direction: column ;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.90);
+
+    height: 20rem;
+    width: fit-content;
+
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+}
+
+
+.ty-lg-bnner{
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18.088px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.con-prop{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Roboto;
+    font-size: 18.088px;
+    font-weight: 700;
+
+    border: 0;
+
+    width: fit-content;
+    height: fit-content;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background:   #3466AA;
+
+    margin-top: 2.3rem;
+    margin-left: 5rem;
+}
+
+.txt-container{
+    margin-top: 1.2rem;
+}
+
+
+
+/* General Properties */
+
+.sp-l-block{
+    display: block;
+}
+
+.wc-logo-cont{
+    flex-direction: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 2.4rem;
+
+}
+
+.scss-cont{
+    margin-top: 2.3rem;
+}
+
+
+.scss-cont{
+    display: flex;
+    text-align: center;
+}
+
+.success-spn{
+    color:  #3466AA;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22.322px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -1,0 +1,145 @@
+/* Font : Inter */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* MPlus */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=M+PLUS+Rounded+1c:wght@700&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* Roboto Font API */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+
+/* GENERAL PROPERTIES */
+
+.span-block{
+    display: block;
+}
+
+.flx-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.mg-4-px{
+    margin-top: 4px;
+}
+/* SPECIFIC PROPERTIES */
+
+.comp-header{
+    text-align: center;
+    margin-top: 2.3rem;
+}
+
+.cont-prop{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+}
+
+.prod-header{
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sub-prod-header{
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* CARD PROPERTIES */
+
+.crd-wrap{
+    width: 18rem;
+}
+
+.crd-header{
+    background: rgba(217, 217, 217, 0.50);
+    border-radius: 6px 6px 0px 0px;
+}
+
+.prod-tag-con{
+    width: max-content;
+    border-radius: 6px 0px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.prod-tag{
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.prod-tag-2{
+    height: 1.6rem
+}
+
+.prod-name{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.prod-price{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* IMAGE PROPERTIES */
+
+.img-container{
+    border-right: 5px solid rgba(217, 217, 217, 0.50);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); 
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.prod-photo{
+    width: 100%;
+    height: 19rem;
+}
+
+/* BUTTON PROPERTIES */
+
+.prod-details{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+    border-radius: 0px 0px 6px 6px;
+} 
+
+.btn-pdding{
+    padding-left: 10px;
+}
+
+.cart-btn{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.btn-stndrd{
+    width: 1.6rem;
+    height: 1.6rem;   
+}
+
+.con-wrap{
+    margin-right: 1.5rem;
+}
+
+.prod-imgs-wrp{
+    margin-top: 4.2rem;
+}

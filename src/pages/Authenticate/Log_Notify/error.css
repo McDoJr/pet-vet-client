@@ -1,0 +1,91 @@
+/* Font : Inter */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* MPlus */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=M+PLUS+Rounded+1c:wght@700&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* Roboto Font API */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+
+
+.bg-wrp{
+    display: flex;
+    background: url('../../../assets/backgrounds/dog_hs.jpg') lightgray 50% / cover no-repeat;    
+    height: fit-content;
+
+}
+
+/* ERROR */
+
+.log-wc-pt{
+    flex-direction: column;
+}
+
+.sp-l-block{
+    display: block;
+}
+
+.txt-container{
+    flex-direction: column;
+}
+
+.error-spn{
+
+    color:  #FF5C5C;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22.322px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+.error-lg-bnner{
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18.088px;
+    font-weight: 600;
+
+} 
+
+.con-txt{
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+
+.try-txt{
+    color: rgba(255, 255, 255, 0.90);
+
+    font-family: Roboto;
+    font-size: 18.088px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.a-email{
+    color: #4A4A4A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18.088px;
+    font-weight: 300;
+
+
+}
+
+.btn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+
+}
+
+.btn-error{
+    border-radius: 8px;
+    background: #FF5C5C;
+    margin-left: 12px;
+}

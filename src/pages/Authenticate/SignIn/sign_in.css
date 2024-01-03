@@ -1,0 +1,187 @@
+/* Font : Inter */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* MPlus */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=M+PLUS+Rounded+1c:wght@700&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+/* Roboto Font API */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@450;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Roboto&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+
+
+.log-in-body-wrp{
+    display: flex;
+    background: url('../../../assets/backgrounds/login_bg.jpg') lightgray 50% / cover no-repeat;
+}
+
+.log-in-wrap{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+    background: rgba(241, 241, 241, 0.90);
+
+    margin-top: 5rem;
+    margin-bottom: 8.5rem;
+
+}
+
+.log-in-banner{
+    display: block;
+    color: #000;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.log-acc-form {
+    margin-top: 3.6rem;
+}
+
+.log-in-logo-wrp{
+    margin-top: 3.5rem;
+}
+
+/* General Properties */
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="checkbox"]
+{
+    vertical-align: middle;
+}
+
+.dis-design-none{
+    text-decoration: none;
+}
+
+/* Form Properties */
+
+.form-size-app{
+    width: 20rem;
+    height: 3rem;
+}
+
+.form-f-prop{
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+}
+
+
+/* General Padding and Margin */
+
+.pd-in-form-l{
+    padding-left: 1rem;
+}
+
+.vert-a-mid{
+    vertical-align: middle;
+}
+
+/* Font Styles */
+
+.font-16-int{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.font-10-int{
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* For Span */
+
+.span-in-block {
+    display: inline-block;
+}
+
+.sp-bet{
+    justify-content: space-between;
+}
+
+
+/* Specific Properties */
+
+.log-in-banner{
+    display: inline-block;
+}
+
+.for-pass-icon-con{
+    width: fit-content;
+}
+
+.acc-pass{
+    margin-top: 6px;
+}
+
+.forgot-pass-cont{
+   padding-left: 9rem;
+}
+
+.forgot-pass-cont{
+    align-items: center;
+}
+
+.remember-lbl{
+    padding-left: 2px;
+}
+
+.for-pass-lbl{
+    padding-left: 2px;
+    padding-top: 5px;
+}
+
+.log-in-btn{
+    margin-top: 4.8rem;
+
+    width: 16.25rem;
+    height: 3rem;
+
+    border-radius: 8px;
+    background: #000;
+    font-weight: 500;
+    font-family: Inter;
+    color: #FFF;
+    font-size: 12px;    
+}
+
+.no-acc-q{
+    color: #535353;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.create-acc{
+    margin-top: 3.6rem;
+
+    color: #535353;
+    margin-left: 2px;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}

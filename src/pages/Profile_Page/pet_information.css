@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Inter:wght@100;600&family=Noto+Serif:wght@400;700&family=Quicksand:wght@300&family=Tiro+Devanagari+Sanskrit&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+.header-frm{
+    width: 90rem;
+    height: 16.0625rem;
+    flex-shrink: 0;
+    background-color: rgba(70, 136, 160, 0.49);
+}
+
+.img-pro-con{
+    transform: translateY(-50%);
+}
+
+
+/* GENERAL PROPERTIES */
+
+.flx-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flx-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.sp-block{
+    display: block;
+}
+
+.pd-r-3{
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+
+.hd-font{
+    color: #000;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.txt-font{
+    color: #000;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.hd{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.m-top{
+    padding-top: 3rem;
+}
+
+.wrpper-pet-pro{
+    margin-bottom: 10rem;
+}
+
+.p-name{
+    color: #000;
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.sb-txt{
+    color: #000;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
